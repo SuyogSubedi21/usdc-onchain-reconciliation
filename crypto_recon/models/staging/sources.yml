@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: CRYPTO
+    schema: RAW
+    tables:
+      - name: usdc_transfers_clean
+      - name: approvals

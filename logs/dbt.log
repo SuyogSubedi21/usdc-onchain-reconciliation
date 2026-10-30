@@ -1,0 +1,101 @@
+[0m09:52:38.362666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdba7acf230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdba7572870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdba75712e0>]}
+
+
+============================== 09:52:38.563493 | 2c7eb7a1-1d32-4efb-8590-35c442e72094 ==============================
+[0m09:52:38.563493 [info ] [MainThread]: Running with dbt=1.12.6
+[0m09:52:38.565265 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'use_experimental_parser': 'False', 'quiet': 'False', 'target_path': 'None', 'debug': 'False', 'static_parser': 'True', 'cache_selected_only': 'False', 'printer_width': '80', 'write_json': 'True', 'indirect_selection': 'eager', 'log_format': 'default', 'partial_parse': 'True', 'use_colors': 'True', 'profiles_dir': '/home/suyog/.dbt', 'empty': 'None', 'invocation_command': 'dbt init', 'no_print': 'None', 'introspect': 'True', 'version_check': 'True', 'fail_fast': 'False', 'hints_enabled': 'True', 'send_anonymous_usage_stats': 'True', 'maximum_seed_size_mib': '1', 'warn_error': 'None', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m09:52:57.069064 [debug] [MainThread]: Starter project path: /mnt/c/Users/Suyoug Subedi/Desktop/practice/data engineering/crypto_pipeline/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m09:52:57.825322 [info ] [MainThread]: Setting up your profile.
+[0m09:53:34.095765 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m09:53:34.097282 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m09:53:34.099594 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m09:56:03.154242 [info ] [MainThread]: Profile crypto_recon written to /home/suyog/.dbt/profiles.yml using target's profile_template.yml and your supplied values.
+[0m09:56:03.262541 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m09:56:03.264905 [info ] [MainThread]: dbt version: 1.12.6
+[0m09:56:03.266256 [info ] [MainThread]: python version: 3.12.13
+[0m09:56:03.267980 [info ] [MainThread]: python path: /mnt/c/Users/Suyoug Subedi/Desktop/practice/data engineering/crypto_pipeline/.venv/bin/python3
+[0m09:56:03.269360 [info ] [MainThread]: os info: Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m09:56:03.368510 [info ] [MainThread]: Using profiles dir at /home/suyog/.dbt
+[0m09:56:03.370504 [info ] [MainThread]: Using profiles.yml file at /home/suyog/.dbt/profiles.yml
+[0m09:56:03.372282 [info ] [MainThread]: Using dbt_project.yml file at /mnt/c/Users/Suyoug Subedi/Desktop/practice/data engineering/crypto_pipeline/crypto_recon/dbt_project.yml
+[0m09:56:03.445102 [info ] [MainThread]: adapter type: snowflake
+[0m09:56:03.446677 [info ] [MainThread]: adapter version: 1.12.4
+[0m09:56:03.772713 [info ] [MainThread]: Configuration:
+[0m09:56:03.774805 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m09:56:03.776588 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m09:56:03.778024 [info ] [MainThread]: Required dependencies:
+[0m09:56:03.779699 [debug] [MainThread]: Executing "git --help"
+[0m09:56:03.794317 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:56:03.796189 [debug] [MainThread]: STDERR: "b''"
+[0m09:56:03.797600 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:56:03.800167 [info ] [MainThread]: Connection:
+[0m09:56:03.802107 [info ] [MainThread]:   account: DAIYVUZ-AB56649
+[0m09:56:03.803495 [info ] [MainThread]:   user: suyogsubedi90
+[0m09:56:03.805357 [info ] [MainThread]:   database: crypto
+[0m09:56:03.807810 [info ] [MainThread]:   warehouse: dbt_wh
+[0m09:56:03.809994 [info ] [MainThread]:   role: dbt_role
+[0m09:56:03.812946 [info ] [MainThread]:   schema: dev_suyog
+[0m09:56:03.815468 [info ] [MainThread]:   authenticator: None
+[0m09:56:03.817281 [info ] [MainThread]:   oauth_client_id: None
+[0m09:56:03.820772 [info ] [MainThread]:   query_tag: None
+[0m09:56:03.825184 [info ] [MainThread]:   client_session_keep_alive: False
+[0m09:56:03.827201 [info ] [MainThread]:   host: None
+[0m09:56:03.831957 [info ] [MainThread]:   port: None
+[0m09:56:03.833830 [info ] [MainThread]:   proxy_host: None
+[0m09:56:03.835615 [info ] [MainThread]:   proxy_port: None
+[0m09:56:03.837511 [info ] [MainThread]:   protocol: None
+[0m09:56:03.838974 [info ] [MainThread]:   connect_retries: 1
+[0m09:56:03.840878 [info ] [MainThread]:   connect_timeout: None
+[0m09:56:03.843781 [info ] [MainThread]:   retry_on_database_errors: False
+[0m09:56:03.845689 [info ] [MainThread]:   retry_all: False
+[0m09:56:03.848124 [info ] [MainThread]:   insecure_mode: False
+[0m09:56:03.849805 [info ] [MainThread]:   reuse_connections: True
+[0m09:56:03.851486 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m09:56:03.853269 [info ] [MainThread]:   workload_identity_provider: None
+[0m09:56:03.855759 [info ] [MainThread]:   workload_identity_entra_resource: None
+[0m09:56:03.857663 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m09:56:03.864445 [info ] [MainThread]: Registered adapter: snowflake=1.12.4
+[0m09:56:37.291966 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m09:56:37.379277 [debug] [MainThread]: Using snowflake connection "debug"
+[0m09:56:37.381708 [debug] [MainThread]: On debug: select 1 as id
+[0m09:56:37.383534 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:56:37.480814 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m09:56:37.482437 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m09:56:37.483684 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m09:56:37.485924 [info ] [MainThread]: [31m1 check failed:[0m
+[0m09:56:37.488183 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Password was given but private key is not encrypted.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m09:56:37.490210 [info ] [MainThread]: Your new dbt project "crypto_recon" was created!
+Initialized new project in /mnt/c/Users/Suyoug Subedi/Desktop/practice/data engineering/crypto_pipeline/crypto_recon/crypto_recon
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:56:37.492216 [info ] [MainThread]: [31mYour profile may need adjustments. You can find the logs of `dbt debug` above[0m
+[0m09:56:37.495249 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 239.77043, "process_in_blocks": "63674", "process_kernel_time": 9.443553, "process_mem_max_rss": "215316", "process_out_blocks": "8", "process_user_time": 9.169132}
+[0m09:56:37.498235 [debug] [MainThread]: Command `dbt init` succeeded at 09:56:37.498008 after 239.77 seconds
+[0m09:56:37.499722 [debug] [MainThread]: Connection 'debug' was left open.
+[0m09:56:37.502742 [debug] [MainThread]: On debug: No close available on handle
+[0m09:56:37.504517 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdba9fb3650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdba90ae360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb6cc37d10>]}
+[0m09:56:37.506986 [debug] [MainThread]: Flushing usage events
+[0m09:56:39.125433 [debug] [MainThread]: An error was encountered while trying to flush usage events
